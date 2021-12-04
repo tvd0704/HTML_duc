@@ -1,0 +1,52 @@
+img{
+
+
+  width:   100%;
+
+
+}
+
+
+
+body>div{
+
+    float:left;
+ width: 22%;
+ margin-left: 2.5%;
+ margin-right: 2.5%;
+margin-top: 20px;
+margin-bottom: 20px;
+margin: 20px 2.5% 20px 2.5%;
+transition-duration: 2s;
+/* opacity: 0.7; */
+
+
+
+}
+h1{
+
+text-align: center;
+
+}
+
+h1+ div+div{
+
+
+  background-color: yellow;
+
+/* h1 ~div ap dung cho tat ca dau nga nam duoi h1  */
+
+
+}
+h1 ~div{
+
+background-color: tomato;
+
+
+}
+
+body > div:hover{
+
+
+  background-color: blueviolet;
+}

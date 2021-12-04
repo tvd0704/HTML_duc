@@ -1,0 +1,91 @@
+
+
+img{
+
+width: 100%;
+
+}
+
+
+
+body >div{
+
+float: left;
+width: 15%;
+margin-top: 2.5%;
+margin-left: 2.5%;
+ opacity: 0.5; 
+
+}
+
+p{
+
+    text-align: center;
+}
+
+h1 ~div{
+
+    background-color:darkcyan;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+h1+div+div{
+
+background: darkblue;
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width:700px) and (max-width: 1000px) {
+    body {
+      background-color: rgb(31, 170, 216);
+    }
+
+    body>div{
+        opacity: 1.0;
+        
+        width: 30%;
+        
+          }
+          p{
+
+            font-size: 30px;
+            margin: auto;
+        }
+  }
+
+
+
+
+
+  @media only screen and (min-width:200px) and (max-width: 699px) {
+    body {
+      background-color: rgb(31, 170, 216);
+      height: 300px;
+    }
+
+    body>div{
+        opacity: 1.0;
+        
+        width: 45%;
+        
+          }
+          p{
+
+            font-size: 30px;
+            margin: auto;
+        }
+  }
+
+

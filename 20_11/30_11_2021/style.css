@@ -1,0 +1,94 @@
+li>ul{
+
+
+    display:none;
+}
+
+body{
+
+
+    color: #1D1D1D;
+
+}
+
+
+header>img{
+width: 10%;
+float:left
+}
+
+
+header>div>ul>li{
+
+width: 10%;
+display: inline;
+float: left;
+margin-left: 2%;
+margin-top: 1%;
+
+}
+
+
+header>section{
+float: left;
+
+margin-right: 2%;
+margin-left: 5%;
+margin-top: 1%;
+
+}
+
+button{
+margin-left: 9px;
+
+}
+
+button:nth-child(odd) {
+    background:#4A154B
+}
+
+
+section>div{
+margin-top: 1%;
+float: left;
+width: 30%;
+font-size: 20px;
+
+}
+
+.image-first{
+width: 35%;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+section>div>button{
+    margin-top: 1%;
+height: 40px;
+}
+
+section>img{
+
+width: 7%;
+margin-left: 6%;
+}
+
+video{
+
+width: 40%;
+float: left;
+margin-right:  6%; ;
+}
+
+
+
+@media only screen  and (max-width:400px) {
+
+header>div, header>section{
+
+display: none;
+
+}
+
+
+}
