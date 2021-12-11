@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <style>
+    h1 {
+      padding-left: 20%;
+    }
+
+    form {
+      padding-left: 12%;
+    }
+
+    .email {
+      margin-left: 33px;
+    }
+
+    .check-1 {
+      margin-left: 13px;
+    }
+
+    .check-2 {
+      margin-left: 71px;
+    }
+
+    .check-3 {
+      margin-left: 71px;
+    }
+
+    .form-1 {
+      color: royalblue;
+    }
+
+    .form-2 {
+      color: orangered;
+     
+    }
+
+    .input {
+      padding-left: 12%;
+      margin: 20px 20px 20px 20px;
+    }
+    
+  </style>
+
+  <body>
+    <h1 style="background-color: orangered">Sở Thích Của Bạn</h1>
+
+    <form class="form-1">
+      Họ Và Tên
+      <input type="text" name="Hoten" />
+      <br />
+
+      <p class="email">
+        Email
+        <input type="email" name="email" value="" size="12" />
+      </p>
+    </form>
+
+    <form class="form-2" >
+        <div style="float: left; width:6% ; color:royalblue; text-align: right;" >
+        Giải Trí
+        </div>
+
+        <div style="float: left; width: 94%;" >
+          <input type="checkbox" name="giaitri" value="thethao" />Thể Thao
+          <input type="checkbox" name="giaitri" value="amnhac" />Âm Nhạc
+          <input type="checkbox" name="giaitri" value="docsach" />Đọc Sách
+        </div>
+      
+
+        <div class="check-2">
+        <input type="checkbox" name="giaitri" value="caulong" />Cầu lông
+        <input type="checkbox" name="giaitri" value="luotweb" />Lướt Web
+        <input type="checkbox" name="sport" value="choigame" />Chơi Game
+    </div>
+     <div class="check-3">
+        <input type="checkbox" name="sport" value="dulich" />Du Lịch
+    </div>
+    </form>
+    <div class="input">
+      <input type="submit" name="submit" value="Gửi Thông Tin" width="5%" />
+      <input type="submit" name="submit" value="Nhập Lại" />
+    </div>
+  </body>
+</html>
