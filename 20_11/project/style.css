@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /*==Style cơ bản cho website==*/
+  body {
+    font-family: sans-serif;
+    color: #333;
+  }
+
+  #menu ul {
+    background-color: lightpink;
+    text-align: center;
+    list-style-type: none;
+  
+  }
+  #menu li{
+
+
+    display: inline-block;
+    width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+  }
